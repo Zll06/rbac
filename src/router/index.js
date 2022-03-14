@@ -17,6 +17,11 @@ Vue.use(VueRouter)
 const router = new VueRouter({
     routes: [
         {
+            path: '/',
+            name: '登录页',
+            redirect: '/login'
+        },
+        {
             path: '/login',
             component: Login
         },
