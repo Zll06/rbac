@@ -12,6 +12,7 @@
     <main>
       <div><input value="密码" /></div>
       <button @click="login">登录</button>
+      <div>123</div>
     </main>
   </div>
 </template>
